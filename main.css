@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0 auto;
+    margin-right: 0;
+    margin-left: 0;
+    align-self: center;  
+}
+
+header .container{
+    display: flex;
+    background-color: rgb(80, 24, 24);
+    justify-content: space-between;
+    color: white;   
+}
+.container {
+    width: 100%; 
+    padding: 10px;
+  }
+
+header li {
+    display: inline;
+    margin-right: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 18%;
+    margin-left: -90px;
+    margin-right: 100px;
+  
+}
+
+.articles, .imagem, .imagens, .tec1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img, .imagem img, .iamgens img, .tec img{
+    height: 225px;
+    width: 100%;
+}
+
+section h2, .imagem h2, .imagens h2, .tec,
+.articles article{
+    margin-bottom: 16px;
+}
+
+section, .imagem {
+    padding: 16 0;
+}
+.articles article a,.imagem a , .imagens a, .tec a{
+    
+    color:white;
+    padding: 8px;
+    display: inline-block;
+    background-color: blue ;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 8px;
+}
+
+.articles article a:hover, .imagem article a:hover, .imagens article a:hover, .tec article a:hover{
+    text-decoration:underline;
+}
+.container a{
+    color: white;
+    margin-left: -35px;
+    margin-right: 35px;
+}
+.container{
+   
+    color: black;
+}
+.articles article p, .imagem p, .imagens p, .tec p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articles article h3, .imagem article h3, .imagens article h3, .tec article h3{
+    font-size: 20px;
+    
+}
+section h2, .imagem h2, .imagens h2, .tec h2{
+    font-size: 28px;
+    margin-left: 100px;
+}
+section .articles article, section .imagem article, section .imagens article, section .tec article{
+   align-self: auto;
+   margin-left: 100px;
+   width: 25%;
+   margin-right: -250px;
+   
+    
+}
+header h1{
+    font-size: 35px;
+    margin-left: 100px;
+}
+#sports {
+    background-color: rgb(102, 240, 194);
+}
+#sports .articles article{
+    align-content: baseline;
+}
+#sports .articles article a {
+    background-color: rgb(0, 150, 79);
+}
+#economy{
+    background-color: rgb(181, 252, 163);
+}
+#economy a{
+    background-color: yellowgreen;
+}
+header li a:hover, .imagem a:hover, .tec a:hover{
+    text-decoration:underline;
+}
+header li a, .imagem a, .imagens a, .tec a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+.informações{
+    display: flex;
+    gap: 200px;
+}
+.dinheiro{
+    display: flex;
+    gap: 200px;
+}
+.tec article{
+    width: 100px;
+    gap: -100px;
+    
+}
+.imagem article img, .imagens article img{
+    margin-top: 10px;
+    width: 160%;
+}
+.tec1, .tec2{
+    margin:  10px 100px 100px;
+}
+.tec2 article{
+    margin-top: -90px;
+}
+section div.imagem, .imagens{
+    width: 850px;
+}
+section div.tec1{
+    width: 900px;
+}
+
+
+section .imagem p, .tec1 p, .imagens p, .tec2 p{
+    width: 350px;
+}
+
+#entre{
+    background-color: rgb(236, 219, 219);
+}
+.entretenimento h2, .tec h2{
+    margin: 0px; /* Margens ao redor do contêiner */
+    padding: 25px; /* Espaço interno */
+    margin-left: 75px; /* Centraliza o texto horizontalmente */
+    margin-bottom: -20px;
+}
+#entre a {
+    background-color: red;
+    margin-bottom: 25px;
+}
+.tec1 img, .tec2 img{
+    width: 340%;
+}
+div.tec1 article header, div.tec2 article header{
+    width: 140px;
+}
+
